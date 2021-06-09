@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Regular.woff') format('woff');
+    src: url('../fonts/Roboto-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Bold.woff') format('woff');
+    src: url('../fonts/Roboto-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
@@ -29,7 +29,7 @@
 body {
     background-color: #14131A;
     color: #fff;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background: url('../img/background.jpg') no-repeat;
     background-position: center center;
