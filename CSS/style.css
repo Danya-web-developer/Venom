@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+::after,
+::before,
+:hover {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14131A;
+    color: #fff;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    background: url('../img/background.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 6px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: inline-block;
+    margin-right: 51px;
+}
+
+.logo-img {
+    width: 46px;
+    height: 71px;
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__menu-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav__menu-link {
+    font-size: 14px;
+    line-height: 16.41px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color .5s ease-in-out;
+}
+
+.nav__menu-link:hover {
+    color: rgba(241, 210, 28, 0.9);
+}
+
+/* HERO */
+
+.hero {
+    padding: 77px 0 144px 0;
+    position: relative;
+}
+
+.date {
+    display: block;
+    margin: 0;
+    margin-bottom: 38px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.main-image {
+    margin: 0 0 35px 0;
+}
+
+.positven {
+    position: absolute;
+    top: -115px;
+    right: -16px;
+    z-index: 5;
+}
+
+.hero-text {
+    max-width: 423px;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin: 0 0 70px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.marg {
+    display: block;
+}
+
+.watch-link {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16.5px;
+    color: #8D0019;
+    padding: 15px 30px 15px 55px;
+    background-color: #fff;
+    margin-right: 73px;
+    border-radius: 5px;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.watch-link:hover {
+    background-color: #5a0d67;
+    color: #fff;
+}
+
+.watch-link:hover::before {
+    background: url('../img/whiteplay.svg') no-repeat;
+}
+
+.watch-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 32px;
+    width: 15px;
+    height: 15px;
+    background: url('../img/redplay.svg') no-repeat;
+    background-position: center;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+.primere-tickets {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.primere-tickets:hover {
+    text-decoration: underline;
+}
+
+.primere-tickets::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 367px;
+    width: 15px;
+    height: 15px;
+    background: url('../img/ticket.png') no-repeat;
+    background-position: center;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+/* about */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+
+.film {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 0 21px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.descr {
+    width: 423px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.rolles {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 312px;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.rolls__item {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.video {
+    width: 356px;
+    height: 201px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.inner-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.venomdisk {
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+.motherbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.box__menu:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.box-heading {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.second-name:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.third-name:not(:last-child) {
+    margin-bottom: 4px;
+}

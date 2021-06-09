@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/jquery.fancybox.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Venom 2 - премьера</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a class="logo-link">
+                    <img class="logo-img" src="img/logo.png" alt="Logo - venom's face">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__menu">
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">о фильме</a> 
+                        </li>
+
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">трейлер</a> 
+                        </li>
+
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">актеры</a> 
+                        </li>
+
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">премьера</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container hero__container">
+            <time class="date">16 сентября 2021</time>
+            <img class="main-image" src="img/main-img.png" alt="Main image-heading in png fomat">
+            <img class="positven" src="img/positvenom.png" alt="Positioned venom's face">
+            <p class="hero-text">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея <span class="marg">из комиксов Marvel.</span></p>
+            <div class="links-box">
+                <a class="watch-link" data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0">смотреть трейлер</a>
+                <a class="primere-tickets" href="#">билеты на премьеру</a>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container flex-container">
+            <div class="inner-first">
+                <h2 class="film">О фильме</h2>
+                <p class="descr">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея <span class="marg">из комиксов Marvel.</span></p>
+                    <h3 class="rolles">В главных ролях</h3>
+                    <div class="box-container">
+                        <ul class="rolls__menu-first">
+                            <li class="rolls__item">Том Харди</li>
+                            <li class="rolls__item">Мишель Уильямс</li>
+                            <li class="rolls__item">Вуди Харрельсон</li>
+                            <li class="rolls__item">Наоми Харрис</li>
+                            <li class="rolls__item">Стивен Грем</li>
+                        </ul>
+
+                        <ul class="rolls__menu-second">
+                            <li class="rolls__item">Рейд Скотт</li>
+                            <li class="rolls__item">Эд Кейр</li>
+                            <li class="rolls__item">Шон Делани</li>
+                            <li class="rolls__item">Уильям Барбо</li>
+                            <li class="rolls__item">Пегги Лу</li>
+                        </ul>
+                    </div>
+                <video class="video" controls="controls">
+                    <source src="video/video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="inner-second">
+                <img class="venomdisk" src="img/venomimage.jpg" alt="Box with Venom">
+                <div class="motherbox">
+                    <div class="box__menu">
+                        <h4 class="box-heading">Режиссёр</h4>
+                        <p class="first-name">Энди Серкис</p>
+                    </div>
+                    <div class="box__menu">
+                        <h4 class="box-heading">Сценарий</h4>
+                        <p class="second-name">Келли Марсел</p>
+                        <p class="second-name">Том Харди</p>
+                    </div>
+                    <div class="box__menu">
+                        <h4 class="box-heading">Продюссеры</h4>
+                        <p class="third-name">Ави Арад</p>
+                        <p class="third-name">Том Харди</p>
+                        <p class="third-name">Келли Марсел</p>
+                    </div>
+                </div>    
+            </div>
+        </div>    
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
