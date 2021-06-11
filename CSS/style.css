@@ -281,3 +281,173 @@ a {
 .third-name:not(:last-child) {
     margin-bottom: 4px;
 }
+
+.btn {
+    display: none;
+}
+
+@media (max-width: 320px) {
+    body {
+        background: #14131A;
+    }
+
+    .container {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header {
+        margin: 0;
+    }
+
+    .header-inner {
+        justify-content: space-between;
+    }
+
+    .logo-link {
+        margin-right: 0;
+    }
+
+    .header-link {
+        display: block;
+    }
+    
+    .btn {
+        display: block;
+        width: 24px;
+        height: 14px;
+        background-color: transparent;
+        border: none;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .line {
+        width: 24px;
+        height: 2px;
+        position: absolute;
+        background-color: #fff;
+    }
+
+    .line:nth-child(1) {
+        transform: translateY(-7px);
+    }
+
+    .line:nth-child(3) {
+        transform: translateY(7px);
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    /* hero */
+
+    .hero {
+        padding: 37px 0 115px 0;
+    }
+
+    .date {
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    .main-image {
+        width: 266px;
+        height: 66px;
+        margin-bottom: 22px;
+    }
+
+    .positven {
+        display: block;
+        width: 128px;
+        height: 148px;
+        top: 25px;
+        right: 3px;
+    }
+
+    .hero-text {
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 35px;
+    }
+
+    .marg {
+        display: inline;
+    }
+
+    .links-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .watch-link {
+        display: block;
+        margin: 0 47px 25px 47px;
+    }
+
+    .primere-tickets {
+        display: block;
+        margin: 0 47px 0 94px;
+        width: 160px;
+    }
+
+    .primere-tickets:before {
+        left: 78px;
+    }
+
+    .blood {
+        display: none;
+    }
+
+    /* about */
+
+    .about {
+        padding-bottom: 72px;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .film {
+        text-align: center;
+        margin-bottom: 0 0 21px 0;
+    }
+
+    .inner-first {
+        margin-bottom: 40px;
+    }
+
+    .descr {
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+        width: 300px;
+    }
+
+    .box-container {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .video {
+        width: 270px;
+        height: 156px;
+        margin-left: 15px;
+    }
+
+    .inner-second {
+        display: block;
+    }
+
+    .venomdisk {
+        margin-bottom: 45px;
+    }
+
+}
